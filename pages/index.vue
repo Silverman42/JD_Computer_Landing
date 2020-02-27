@@ -256,8 +256,7 @@ import ServiceLinks from '~/components/global/links/ServiceContainerRouter'
 import CourseLinks from '~/components/global/links/CourseContainerRouter'
 export default {
   transition: {
-    name: 'slide',
-    appear: true
+    name: 'page_slide'
   },
   layout: 'default',
   components: {

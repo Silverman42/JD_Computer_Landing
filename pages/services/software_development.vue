@@ -63,8 +63,7 @@ export default {
     title: 'Services::Software Development'
   },
   transition: {
-    name: 'slide',
-    appear: true
+    name: 'page_slide'
   },
   layout: 'default',
   components: {

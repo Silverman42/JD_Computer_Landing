@@ -129,8 +129,7 @@ export default {
     title: 'Testimony'
   },
   transition: {
-    name: 'slide',
-    appear: true
+    name: 'page_slide'
   },
   layout: 'default'
 }

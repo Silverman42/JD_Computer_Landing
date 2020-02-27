@@ -1,17 +1,17 @@
 /*
 Page slide Animation
 */
-.slide-enter{
+.page_slide-enter{
     transform: translateX(-20px);
     -webkit-transform: translateX(-20px);
     opacity: 0
 }
-.slide-leave-to{
+.page_slide-leave-to{
     transform: translateX(20px);
     -webkit-transform: translateX(20px);
     opacity: 0
 }
-.slide-enter-active, .slide-leave-active{
+.page_slide-enter-active, .page_slide-leave-active{
     transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
 }
