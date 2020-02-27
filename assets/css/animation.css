@@ -1,6 +1,7 @@
 /*
 Page slide Animation
 */
+/* purgecss start ignore */
 .page_slide-enter{
     transform: translateX(-20px);
     -webkit-transform: translateX(-20px);
@@ -15,3 +16,4 @@ Page slide Animation
     transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
 }
+/* purgecss end ignore */
