@@ -26,7 +26,7 @@
     </section>
 
     <section class="py-10">
-      <img class="w-full h-auto" src="~/assets/img/Landing_illustration.svg" alt="Tech Hub in JD computer">
+      <img class="w-full h-auto" src="/img/Landing_illustration.svg" alt="Tech Hub in JD computer">
     </section>
 
     <!--Testimony Start-->

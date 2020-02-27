@@ -4,7 +4,7 @@
             Customized Software <span class="text-gray-600"> tailored for business</span>
         </template>
         <template slot="illustration">
-            <img class="w-full h-auto" src="~/assets/img/Landing_illustration.svg" alt="Tech Hub in JD computer">
+            <img class="w-full h-auto" src="/img/Landing_illustration.svg" alt="Tech Hub in JD computer">
         </template>
         <template slot="description-text">
           <p class="sm:text-lg font-bold my-3">
