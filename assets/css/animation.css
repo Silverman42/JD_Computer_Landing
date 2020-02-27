@@ -1,0 +1,17 @@
+/**
+* Page slide Animation
+*/
+.slide-enter{
+    transform: translateX(-20px);
+    -webkit-transform: translateX(-20px);
+    opacity: 0
+}
+.slide-leave-to{
+    transform: translateX(20px);
+    -webkit-transform: translateX(20px);
+    opacity: 0
+}
+.slide-enter-active, .slide-leave-active{
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+}
