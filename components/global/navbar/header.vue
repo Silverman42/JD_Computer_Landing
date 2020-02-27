@@ -14,7 +14,7 @@
                 </a>
             </div>
         </div>
-        <div class="w-full md:w-6/12 px-8 md:px-0 md:py-5 py-16 md:flex md:align-top md:justify-end" :class="{'submenu-fixed': menuOpen, 'hidden': !menuOpen}">
+        <div class="w-full md:w-6/12 px-8 md:px-0 md:py-5 py-16 md:flex md:align-top md:justify-end" :class="{'submenu-fixed': menuOpen, 'hidden': !menuOpen}" style="transition: all 0.3s ease-in-out">
             <slot></slot>
         </div>
     </header>

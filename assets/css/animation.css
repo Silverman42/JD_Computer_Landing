@@ -1,5 +1,5 @@
-/**
-* Page slide Animation
+/*
+Page slide Animation
 */
 .slide-enter{
     transform: translateX(-20px);

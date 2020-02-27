@@ -9,28 +9,28 @@
         <sublink-container>
           Services &nbsp; <span class="hidden sm:inline-block flaticon-down-chevron"></span>
           <template slot="sublinks">
-              <custom-navlink color="text-gray-600" :to="{name:'services-software_development'}" hoverColor="hover:text-black">Software Development</custom-navlink>
-              <custom-navlink color="text-gray-600" hoverColor="hover:text-black">Computer Sales</custom-navlink>
-              <custom-navlink color="text-gray-600" hoverColor="hover:text-black md:hover:border">Training</custom-navlink>
-              <custom-navlink color="text-gray-600" hoverColor="hover:text-black">Consultancy </custom-navlink>
-              <custom-navlink color="text-gray-600" hoverColor="hover:text-black">Web Development</custom-navlink>
-              <custom-navlink color="text-gray-600" hoverColor="hover:text-black">Graphic Design</custom-navlink>
+              <custom-navlink color="text-gray-600" extra-css="my-2 sm:my-0" :to="{name:'services-software_development'}" hoverColor="hover:text-black">Software Development</custom-navlink>
+              <custom-navlink color="text-gray-600" extra-css="my-2 sm:my-0" hoverColor="hover:text-black">Computer Sales</custom-navlink>
+              <custom-navlink color="text-gray-600" extra-css="my-2 sm:my-0" hoverColor="hover:text-black md:hover:border">Training</custom-navlink>
+              <custom-navlink color="text-gray-600" extra-css="my-2 sm:my-0" hoverColor="hover:text-black">Consultancy </custom-navlink>
+              <custom-navlink color="text-gray-600" extra-css="my-2 sm:my-0" hoverColor="hover:text-black">Web Development</custom-navlink>
+              <custom-navlink color="text-gray-600" extra-css="my-2 sm:my-0" hoverColor="hover:text-black">Graphic Design</custom-navlink>
           </template>
         </sublink-container>
         <sublink-container>
           Academy &nbsp; <span class="hidden sm:inline-block flaticon-down-chevron"></span>
           <template slot="sublinks">
-              <custom-navlink color="text-gray-600" hoverColor="hover:text-black">Computer Literacy</custom-navlink>
-              <custom-navlink color="text-gray-600" hoverColor="hover:text-black">Digital Marketing</custom-navlink>
-              <custom-navlink color="text-gray-600" hoverColor="hover:text-black">Software Engineering</custom-navlink>
-              <custom-navlink color="text-gray-600" hoverColor="hover:text-black">Web Design</custom-navlink>
-              <custom-navlink color="text-gray-600" hoverColor="hover:text-black">Graphic Design</custom-navlink>
+              <custom-navlink color="text-gray-600" extra-css="my-2 sm:my-0" hoverColor="hover:text-black">Computer Literacy</custom-navlink>
+              <custom-navlink color="text-gray-600" extra-css="my-2 sm:my-0" hoverColor="hover:text-black">Digital Marketing</custom-navlink>
+              <custom-navlink color="text-gray-600" extra-css="my-2 sm:my-0" hoverColor="hover:text-black">Software Engineering</custom-navlink>
+              <custom-navlink color="text-gray-600" extra-css="my-2 sm:my-0" hoverColor="hover:text-black">Web Design</custom-navlink>
+              <custom-navlink color="text-gray-600" extra-css="my-2 sm:my-0" hoverColor="hover:text-black">Graphic Design</custom-navlink>
           </template>
         </sublink-container>
-        <custom-navlink :to="{name:'about'}">About Us</custom-navlink>
-        <custom-navlink>Shop</custom-navlink>
-        <custom-navlink :to="{name:'testimony'}">Testimony</custom-navlink>
-        <custom-navlink :to="{name:'contact'}">Contact</custom-navlink>
+        <custom-navlink extra-css="my-2 sm:my-0" :to="{name:'about'}">About Us</custom-navlink>
+        <custom-link extra-css="my-2 sm:my-0">Shop</custom-link>
+        <custom-navlink extra-css="my-2 sm:my-0" :to="{name:'testimony'}">Testimony</custom-navlink>
+        <custom-navlink extra-css="my-2 sm:my-0" :to="{name:'contact'}">Contact</custom-navlink>
       </custom-header>
       <nuxt/>
 
@@ -125,11 +125,12 @@
 /* eslint-disable */
 import CustomHeader from '~/components/global/navbar/header'
 import CustomNavlink from '~/components/global/navbar/routelinks'
+import CustomLink from '~/components/global/navbar/navlinks'
 import SublinkContainer from '~/components/global/navbar/sublinkContainer'
 
 export default {
   components: {
-    CustomHeader, CustomNavlink, SublinkContainer
+    CustomHeader, CustomNavlink, SublinkContainer, CustomLink
   }
 }
 </script>

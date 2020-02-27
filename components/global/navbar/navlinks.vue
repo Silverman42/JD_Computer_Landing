@@ -26,7 +26,7 @@ export default {
     },
     textSize: {
       type: String,
-      default: 'md:text-base text-2xl'
+      default: 'md:text-sm text-2xl'
     },
     extraCss: {
       type: String,
