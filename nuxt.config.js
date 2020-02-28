@@ -1,6 +1,6 @@
 
 export default {
-  mode: process.env.environment === 'prod' ? 'universal' : 'spa',
+  mode: 'universal',
   /*
   ** Headers of the page
   */
