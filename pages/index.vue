@@ -3,7 +3,7 @@
     <section class="py-10">
       <div class="md:w-9/12 w-10/12 mx-auto">
         <h1 class="md:text-6xl text-3xl mb-5 font-extrabold">
-          <span class="text-gray-600"> We are all about </span>technology <span class="text-gray-600">and</span> building your business <span class="text-gray-600">with it</span>.
+          <span class="text-black"> We are the light of technological tactfulness you need for your </span> <span class="text-blue-500"> business</span>.
         </h1>
         <div class="border py-5 px-3 flex flex-col sm:flex-row sm:items-center">
           <div class="sm:w-4/12 w:full p-3 font-bold md:text-lg flex items-center">

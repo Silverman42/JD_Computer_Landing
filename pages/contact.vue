@@ -5,8 +5,8 @@
         <p class="mb-5 uppercase font-extrabold " style="letter-spacing: 3px">
           CONTACT US
         </p>
-        <h1 class="md:text-6xl text-3xl mb-5 font-extrabold text-gray-600">
-          Reach us today and let us render the <span class="text-black"> best ICT services </span> to you.
+        <h1 class="md:text-6xl text-3xl mb-5 font-extrabold">
+          Reach us today and let us render the <span class="text-blue-500"> best ICT services </span> to you.
         </h1>
       </div>
     </section>

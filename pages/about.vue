@@ -6,7 +6,7 @@
           ABOUT US
         </p>
         <h1 class="md:text-6xl text-3xl mb-5 font-extrabold">
-          <span class="text-gray-600">We strive to </span>abrigde the divide between ignorance and knowledge <span class="text-gray-600">through technology</span>
+          We strive to <span class="text-blue-500">abrigde the divide between ignorance and knowledge</span> through technology
         </h1>
         <div class="flex mb-5">
           <img src="" class="block bg-blue-700 w-12 h-12 mr-5 rounded-full" alt="" srcset="">
@@ -48,7 +48,7 @@
       </div>
     </section>
     <!--Story ends-->
-    <section class="py-10">
+    <section class="py-12">
       <div class="w-10/12 mx-auto flex flex-wrap justify-between items-center">
         <h3  class="sm:text-5xl text-3xl mb-10 text-center sm:text-left font-extrabold text-gray-600 sm:w-5/12 w-full">
           Our Vision
@@ -59,7 +59,7 @@
       </div>
     </section>
     <!--Mission Start-->
-    <section class="py-10">
+    <section class="py-12">
       <div class="w-10/12 mx-auto flex flex-wrap flex-col-reverse sm:flex-row justify-between items-center">
         <shadow-bg padding="p-5 py-20" extra-class="w-full sm:w-6/12 border border=gray-400 text-center text-lg sm:text-xl font-bold" background="#f3f5f8">
           “ To be the fore most knowledge sharing center in regards to the IT sector “

@@ -1,7 +1,7 @@
 <template>
     <service-layout>
         <template slot="hero-message">
-            Customized Software <span class="text-gray-600"> tailored for business</span>
+            <span class="text-blue-500">Customized Software </span>tailored for business
         </template>
         <template slot="illustration">
             <img class="w-full h-auto" src="/img/Landing_illustration.svg" alt="Tech Hub in JD computer">

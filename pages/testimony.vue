@@ -6,7 +6,7 @@
           TESTIMONIES
         </p>
         <h1 class="md:text-6xl text-3xl mb-5 font-extrabold">
-          <span class="text-gray-600">Our top notch computer services</span> leave nothing to be desired
+          Our <span class="text-blue-500">top notch computer services</span> leave nothing to be desired
         </h1>
       </div>
     </section>
