@@ -4,7 +4,7 @@
             <span class="text-blue-500">Customized Software </span>tailored for business
         </template>
         <template slot="illustration">
-            <img class="w-full h-auto" src="/img/Landing_illustration.svg" alt="Tech Hub in JD computer">
+            <img class="w-full h-auto" src="/img/software_hero-min.jpg" alt="Software dev at JD computer">
         </template>
         <template slot="description-text">
           <p class="sm:text-lg font-bold my-3">
@@ -59,8 +59,13 @@
 <script>
 import ServiceLayout from '~/components/page_layout/services'
 export default {
-  head: {
-    title: 'Services::Software Development'
+  head () {
+    return {
+      title: 'Services - Software Development',
+      meta: [
+        { hid: 'theme-color', name: 'theme-color', content: '#0168fa' }
+      ]
+    }
   },
   transition: {
     name: 'page_slide'

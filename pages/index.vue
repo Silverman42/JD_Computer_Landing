@@ -1,11 +1,14 @@
 <template>
   <div>
-    <section class="py-10">
+    <section class="py-10 relative">
+      <!--pattern start-->
+      <img class="w-100 h-auto block absolute visible" style="left: 5px; z-index:-1" src="/pattern/circle_one.svg" alt="">
+      <!--pattern end-->
       <div class="md:w-9/12 w-10/12 mx-auto">
         <h1 class="md:text-6xl text-3xl mb-5 font-extrabold">
           <span class="text-black"> We are the light of technological tactfulness you need for your </span> <span class="text-blue-500"> business</span>.
         </h1>
-        <div class="border py-5 px-3 flex flex-col sm:flex-row sm:items-center">
+        <div class="border py-5 px-3 flex flex-col sm:flex-row sm:items-center bg-white">
           <div class="sm:w-4/12 w:full p-3 font-bold md:text-lg flex items-center">
             <div class="text-blue-400 font-normal text-3xl mr-3">
               <span class="flaticon-verified" />
@@ -26,7 +29,7 @@
     </section>
 
     <section class="py-10">
-      <img class="w-full h-auto" src="/img/Landing_illustration.svg" alt="Tech Hub in JD computer">
+      <img class="w-full h-auto" src="/img/index_hero-min.jpg" alt="Tech Hub in JD computer">
     </section>
 
     <!--Testimony Start-->
@@ -67,7 +70,10 @@
     </section>
     <!--Testimony end-->
     <!--Benefit Start-->
-    <section class="py-10">
+    <section class="py-10 relative">
+      <!--pattern start-->
+      <img class="w-100 h-auto block absolute visible" style="right: 5px;top: 50%; z-index:-1" src="/pattern/square_1.svg" alt="">
+      <!--pattern end-->
       <div class="md:w-10/12 w-10/12 flex flex-wrap sm:justify-between content-center mx-auto">
         <div class="w-full mx-auto sm:w-8/12">
           <h2 class="sm:text-5xl text-3xl text-gray-600 text-center font-extrabold">
@@ -75,13 +81,15 @@
           </h2>
         </div>
         <!--Benefit Image Start-->
-        <div class="sm:w-5/12 w-full my-5">
-          <img>
+        <div class="sm:w-5/12 w-full my-8">
+          <shadow-bg background="white" padding="p-0">
+            <img class="w-full h-auto" src="/img/jd_core_services-min.png">
+          </shadow-bg>
         </div>
         <!--Benefit Image End-->
 
         <!--Benefit List Start-->
-        <div class="sm:w-5/12 w-full my-5">
+        <div class="sm:w-5/12 w-full my-8">
           <div class="mb-5">
             <div class="text-blue-400 text-5xl mb-3">
               <span class="flaticon-reliability" />
@@ -111,7 +119,10 @@
     <!--Benefit end-->
 
     <!--Services Section start-->
-    <section class="py-10">
+    <section class="py-10 relative">
+      <!--pattern start-->
+      <img class="w-100 h-auto block absolute visible" style="left: 0px; z-index:-1" src="/pattern/grill_1.svg" alt="">
+      <!--pattern end-->
       <div class="md:w-10/12 w-10/12 flex flex-wrap sm:justify-between items-center mx-auto">
         <!--Service header start-->
         <div class="w-full sm:w-4/12 my-5">
@@ -255,6 +266,14 @@
 import ServiceLinks from '~/components/global/links/ServiceContainerRouter'
 import CourseLinks from '~/components/global/links/CourseContainerRouter'
 export default {
+  head () {
+    return {
+      title: 'Welcome to JD Computer Technologies',
+      meta: [
+        { hid: 'theme-color', name: 'theme-color', content: '#0168fa' }
+      ]
+    }
+  },
   transition: {
     name: 'page_slide'
   },

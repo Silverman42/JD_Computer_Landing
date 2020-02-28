@@ -1,6 +1,9 @@
 <template>
   <div>
-    <section class="py-10">
+    <section class="py-10 relative">
+      <!--pattern start-->
+      <img class="w-100 h-auto block absolute visible" style="left: 5px; z-index:-1" src="/pattern/circle_one.svg" alt="">
+      <!--pattern end-->
       <div class="md:w-9/12 w-10/12 mx-auto">
         <p class="mb-5 uppercase font-extrabold " style="letter-spacing: 3px">
           CONTACT US
@@ -14,7 +17,7 @@
     <section class="py-10">
       <iframe
         width="100%"
-        height="600"
+        height="450"
         frameborder="0"
         style="border:0"
         src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAcr9vkl12QSevMuUamxYXIzIFM7abczjs
@@ -122,8 +125,13 @@
 
 <script>
 export default {
-  head: {
-    title: 'Contact'
+  head () {
+    return {
+      title: 'Contact - Reach Us today',
+      meta: [
+        { hid: 'theme-color', name: 'theme-color', content: '#0168fa' }
+      ]
+    }
   },
   transition: {
     name: 'page_slide'

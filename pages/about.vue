@@ -1,6 +1,9 @@
 <template>
   <div>
-    <section class="py-10">
+    <section class="py-10 relative">
+      <!--pattern start-->
+      <img class="w-100 h-auto block absolute visible" style="left: 5px; z-index:-1" src="/pattern/circle_one.svg" alt="">
+      <!--pattern end-->
       <div class="md:w-9/12 w-10/12 mx-auto">
         <p class="mb-5 uppercase font-extrabold " style="letter-spacing: 3px">
           ABOUT US
@@ -19,17 +22,20 @@
     </section>
     <!--Illustration start-->
     <section class="py-10">
-      <div class="bg-gray-800 h-64" />
+      <img class="w-full h-auto" src="/img/about_hero-min.jpg" alt="About jd computers">
     </section>
     <!--ilusstration end-->
     <!--Story Starts-->
-    <section class="py-10">
+    <section class="py-12">
       <div class="w-10/12 mx-auto flex flex-wrap justify-between">
         <shadow-bg padding="p-0" extra-class="sm:w-5/12 w-full mb-10">
           <h3 class="sm:text-5xl p-5 text-3xl text-blue-200 font-extrabold">
             Our Passion, <br>
             Our Story
           </h3>
+          <div>
+            <img src="/img/jd_story.jpg" class="w-100 h-auto" alt="Jd computer story">
+          </div>
         </shadow-bg>
         <div class="sm:w-6/12 w-full sm:text-lg font-bold text-gray-600">
           <p class="mb-3">
@@ -50,8 +56,11 @@
     <!--Story ends-->
     <section class="py-12">
       <div class="w-10/12 mx-auto flex flex-wrap justify-between items-center">
-        <h3  class="sm:text-5xl text-3xl mb-10 text-center sm:text-left font-extrabold text-gray-600 sm:w-5/12 w-full">
+        <h3  class="sm:text-5xl text-3xl mb-10 text-center sm:text-left font-extrabold text-gray-600 sm:w-5/12 w-full relative">
           Our Vision
+          <!--pattern start-->
+          <img class="w-100 h-auto block absolute invisible sm:visible" style="top: -150px; z-index:-1" src="/pattern/vission.svg" alt="">
+          <!--pattern end-->
         </h3>
         <shadow-bg padding="p-5 py-20" extra-class="w-full sm:w-6/12 border border=gray-400 text-center text-lg sm:text-xl font-bold" background="#f3f5f8">
           “ To be the fore most knowledge sharing insitutuion, disseminating top class knowledge to the masses “
@@ -64,14 +73,17 @@
         <shadow-bg padding="p-5 py-20" extra-class="w-full sm:w-6/12 border border=gray-400 text-center text-lg sm:text-xl font-bold" background="#f3f5f8">
           “ To be the fore most knowledge sharing center in regards to the IT sector “
         </shadow-bg>
-        <h3  class="sm:text-5xl text-gray-600 text-center sm:text-right text-3xl mb-10 font-extrabold sm:w-5/12 w-full">
+        <h3 class="sm:text-5xl text-gray-600 text-center sm:text-right text-3xl mb-10 font-extrabold sm:w-5/12 w-full relative">
           Our Mision
+          <!--pattern start-->
+          <img class="w-100 h-auto block absolute invisible sm:visible" style="top: -100px; z-index:-1" src="/pattern/mission.svg" alt="">
+          <!--pattern end-->
         </h3>
       </div>
     </section>
     <!--Mission End-->
     <!--Contact section start-->
-    <section class="pt-10 pb-20">
+    <section class="pt-10 pb-20 bg-white">
       <div class="sm:w-9/12 w-10/12 mx-auto">
         <div class="border py-5 px-3 flex flex-col sm:flex-row sm:items-center">
           <div class="sm:w-7/12 w:full p-3">
@@ -91,8 +103,13 @@
 
 <script>
 export default {
-  head: {
-    title: 'About'
+  head () {
+    return {
+      title: 'About Us - Our Story, Our Vission, Our Mission',
+      meta: [
+        { hid: 'theme-color', name: 'theme-color', content: '#0168fa' }
+      ]
+    }
   },
   transition: {
     name: 'page_slide'

@@ -20,7 +20,7 @@ export default {
     transition: all 0.3s ease-out;
     --webkit-transition: all 0.3s ease-out;
     letter-spacing: 5px !important;
-    @apply text-white px-3 inline-block relative font-bold text-sm tracking-wider py-3 w-full uppercase text-center;
+    @apply text-white px-3 block relative font-bold text-sm tracking-wider py-3 w-full uppercase text-center;
   }
   .btn:hover:after{
       left: 3px;

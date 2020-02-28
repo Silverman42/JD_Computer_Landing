@@ -1,6 +1,9 @@
 <template>
   <div class="min-h-screen">
-    <section class="py-10">
+    <section class="py-10 relative">
+      <!--pattern start-->
+      <img class="w-4/12 h-auto block absolute visible" style="right: 5px; z-index:-1" src="/pattern/kite_1.svg" alt="">
+      <!--pattern end-->
       <div class="md:w-9/12 w-10/12 mx-auto">
         <span class="uppercase py-3 tracking-widest font-bold">services</span>
         <h1 class="md:text-6xl text-3xl mb-5 font-extrabold">

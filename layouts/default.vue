@@ -35,7 +35,10 @@
       <nuxt/>
 
       <!--Footer Start-->
-      <footer class="bg-gray-900 py-20">
+      <footer class="bg-gray-900 py-20 relative overflow-hidden">
+          <!--pattern start-->
+          <img class="w-100 h-auto block absolute invisible sm:visible" style="left: -220px; bottom:-380px;z-index:0" src="/pattern/grill_2.svg" alt="">
+          <!--pattern end-->
           <div class="w-10/12 flex flex-wrap justify-between mx-auto">
             <div class="w-8/12 sm:w-2/12 my-5 pr-2">
               <div class="mb-5">
