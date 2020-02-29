@@ -53,6 +53,7 @@ export default {
             opacity: 0;
             transition: all 0.3s;
             --webkit-transition: all 0.3s;
+            z-index: 50;
         }
         .sublink_container a{
             @apply pb-2

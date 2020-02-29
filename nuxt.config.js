@@ -1,6 +1,6 @@
 
 export default {
-  mode: 'universal',
+  mode: process.env.BUILD || 'spa',
   /*
   ** Headers of the page
   */
