@@ -20,11 +20,11 @@
         <sublink-container>
           Academy &nbsp; <span class="hidden sm:inline-block flaticon-down-chevron"></span>
           <template slot="sublinks">
-              <custom-navlink color="text-gray-600" extra-css="my-2 sm:my-0" hoverColor="hover:text-black">Computer Literacy</custom-navlink>
-              <custom-navlink color="text-gray-600" extra-css="my-2 sm:my-0" hoverColor="hover:text-black">Digital Marketing</custom-navlink>
-              <custom-navlink color="text-gray-600" extra-css="my-2 sm:my-0" hoverColor="hover:text-black">Software Engineering</custom-navlink>
-              <custom-navlink color="text-gray-600" extra-css="my-2 sm:my-0" hoverColor="hover:text-black">Web Design</custom-navlink>
-              <custom-navlink color="text-gray-600" extra-css="my-2 sm:my-0" hoverColor="hover:text-black">Graphic Design</custom-navlink>
+              <custom-navlink color="text-gray-600" extra-css="my-2 sm:my-0" :to="{name: 'courses-software_engineering'}" hoverColor="hover:text-black">Computer Literacy</custom-navlink>
+              <custom-navlink color="text-gray-600" extra-css="my-2 sm:my-0" :to="{name: 'courses-software_engineering'}" hoverColor="hover:text-black">Digital Marketing</custom-navlink>
+              <custom-navlink color="text-gray-600" extra-css="my-2 sm:my-0" :to="{name: 'courses-software_engineering'}" hoverColor="hover:text-black">Software Engineering</custom-navlink>
+              <custom-navlink color="text-gray-600" extra-css="my-2 sm:my-0" :to="{name: 'courses-software_engineering'}" hoverColor="hover:text-black">Web Design</custom-navlink>
+              <custom-navlink color="text-gray-600" extra-css="my-2 sm:my-0" :to="{name: 'courses-software_engineering'}" hoverColor="hover:text-black">Graphic Design</custom-navlink>
           </template>
         </sublink-container>
         <custom-navlink extra-css="my-2 sm:my-0" :to="{name:'about'}">About Us</custom-navlink>

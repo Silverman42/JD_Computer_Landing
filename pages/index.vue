@@ -58,7 +58,7 @@
               </div>
             </div>
             <div class="text-right mb-5">
-              <nuxt-link to="" class="text-sm text-blue-200 hover:text-blue-300">
+              <nuxt-link :to="{name:'testimony'}" class="text-sm text-blue-200 hover:text-blue-300">
                 More Testimonies &nbsp;
                 <span class="flaticon-right-chevron" />
               </nuxt-link>
@@ -72,7 +72,7 @@
     <!--Benefit Start-->
     <section class="py-10 relative">
       <!--pattern start-->
-      <img class="w-100 h-auto block absolute visible" style="right: 5px;top: 50%; z-index:-1" src="/pattern/square_1.svg" alt="">
+      <img class="w-100 h-auto block absolute sm:visible invisible" style="right: 5px;top: 50%; z-index:-1" src="/pattern/square_1.svg" alt="">
       <!--pattern end-->
       <div class="md:w-10/12 w-10/12 flex flex-wrap sm:justify-between content-center mx-auto">
         <div class="w-full mx-auto sm:w-8/12">
@@ -134,7 +134,7 @@
 
         <!--Service list start-->
         <div class="w-full flex flex-wrap sm:justify-end justify-evenly sm:w-7/12 my-5">
-          <service-links>
+          <service-links :to="{name:'services-software_development'}">
             <template slot="service-icon">
               <span class="flaticon-programming" />
             </template>
@@ -142,7 +142,7 @@
               Software <br> Development
             </template>
           </service-links>
-          <service-links>
+          <service-links :to="{name:'services-software_development'}">
             <template slot="service-icon">
               <span class=" flaticon-laptop" />
             </template>
@@ -150,7 +150,7 @@
               Computer <br> Sales
             </template>
           </service-links>
-          <service-links>
+          <service-links :to="{name:'services-software_development'}">
             <template slot="service-icon">
               <span class=" flaticon-education" />
             </template>
@@ -158,7 +158,7 @@
               Computer <br> Training
             </template>
           </service-links>
-          <service-links>
+          <service-links :to="{name:'services-software_development'}">
             <template slot="service-icon">
               <span class="flaticon-consultation" />
             </template>
@@ -166,7 +166,7 @@
               Computer <br> Consultancy
             </template>
           </service-links>
-          <service-links>
+          <service-links :to="{name:'services-software_development'}">
             <template slot="service-icon">
               <span class="flaticon-www" />
             </template>
@@ -174,7 +174,7 @@
               Website <br> Development
             </template>
           </service-links>
-          <service-links>
+          <service-links :to="{name:'services-software_development'}">
             <template slot="service-icon">
               <span class=" flaticon-image" />
             </template>
@@ -198,7 +198,7 @@
         </div>
         <!--Course Header End-->
         <div class="flex flex-wrap my-5">
-          <course-links extraClass="w-full sm:w-4/12" background="url('https://res.cloudinary.com/drqi7vjyd/image/upload/q_auto/v1581391164/Jd_computer/compTraining_l7idbt.png')">
+          <course-links extraClass="w-full sm:w-4/12" :to="{name: 'courses-software_engineering'}" background="url('https://res.cloudinary.com/drqi7vjyd/image/upload/q_auto/v1581391164/Jd_computer/compTraining_l7idbt.png')">
             <template slot="link-title">
               Computer Literacy
             </template>
@@ -206,7 +206,7 @@
               <span class="text-lg text-blue-300 flaticon-right-chevron"></span>
             </template>
           </course-links>
-          <course-links extraClass="w-full sm:w-4/12" background="url('https://res.cloudinary.com/drqi7vjyd/image/upload/q_auto/v1581391168/Jd_computer/DigitalLit_bc8apr.png')">
+          <course-links extraClass="w-full sm:w-4/12" :to="{name: 'courses-software_engineering'}" background="url('https://res.cloudinary.com/drqi7vjyd/image/upload/q_auto/v1581391168/Jd_computer/DigitalLit_bc8apr.png')">
             <template slot="link-title">
               Digital Marketing
             </template>
@@ -214,7 +214,7 @@
               <span class="text-lg text-blue-300 flaticon-right-chevron"></span>
             </template>
           </course-links>
-          <course-links extraClass="w-full sm:w-4/12" background="url('https://res.cloudinary.com/drqi7vjyd/image/upload/q_auto/v1581391167/Jd_computer/softEngine_ukurnq.png')">
+          <course-links extraClass="w-full sm:w-4/12" :to="{name: 'courses-software_engineering'}" background="url('https://res.cloudinary.com/drqi7vjyd/image/upload/q_auto/v1581391167/Jd_computer/softEngine_ukurnq.png')">
             <template slot="link-title">
               Software Engineering
             </template>
@@ -222,7 +222,7 @@
               <span class="text-lg text-blue-300 flaticon-right-chevron"></span>
             </template>
           </course-links>
-          <course-links extraClass="w-full sm:w-6/12" background="url('https://res.cloudinary.com/drqi7vjyd/image/upload/q_auto/v1581393679/Jd_computer/webDesign_vtgfqz.png')">
+          <course-links extraClass="w-full sm:w-6/12" :to="{name: 'courses-software_engineering'}" background="url('https://res.cloudinary.com/drqi7vjyd/image/upload/q_auto/v1581393679/Jd_computer/webDesign_vtgfqz.png')">
             <template slot="link-title">
               Web Design
             </template>
@@ -230,7 +230,7 @@
               <span class="text-lg text-blue-300 flaticon-right-chevron"></span>
             </template>
           </course-links>
-          <course-links extraClass="w-full sm:w-6/12" background="url('https://res.cloudinary.com/drqi7vjyd/image/upload/q_auto/v1581391164/Jd_computer/graphics_cykolg.png')">
+          <course-links extraClass="w-full sm:w-6/12" :to="{name: 'courses-software_engineering'}" background="url('https://res.cloudinary.com/drqi7vjyd/image/upload/q_auto/v1581391164/Jd_computer/graphics_cykolg.png')">
             <template slot="link-title">
               Graphic Design
             </template>

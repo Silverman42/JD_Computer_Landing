@@ -1,5 +1,8 @@
 <template>
     <service-layout>
+        <template slot="service_name">
+          Software development
+        </template>
         <template slot="hero-message">
             <span class="text-blue-500">Customized Software </span>tailored for business
         </template>
